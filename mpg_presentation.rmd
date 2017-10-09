@@ -1,0 +1,31 @@
+---
+title: "Miles per gallon prediction"
+author: "Drew Herring"
+date: "October 9, 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+For those looking to purchase their own vehicle, miles per gallon (mpg) can be a crucial factor in deciding which vehicle to buy. This prediction application attemps to inform the user of impact of variables on mpg.
+
+## Features
+
+The application allows a user to change the variable values going into the predication calculation.
+These include transmission type, vehicle weight, and horsepower.
+
+## Customizable Chart
+
+The application is also equipped with a customizable chart to allow the user to see how one variable stacks up to mpg in the base data.
+
+## Data
+
+The data was obtained using the mtcars dataset available in R.
+
+``` {r, echo = TRUE}
+str(mtcars)
+```
